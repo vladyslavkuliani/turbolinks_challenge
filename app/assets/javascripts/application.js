@@ -14,3 +14,10 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+var page_view_count = {
+  "home": 0,
+  "goldenrod": 0,
+  "lightcoral": 0,
+  "lightseagreen": 0
+}

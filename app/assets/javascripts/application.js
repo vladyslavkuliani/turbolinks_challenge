@@ -20,4 +20,4 @@ var page_view_count = {
   "goldenrod": 0,
   "lightcoral": 0,
   "lightseagreen": 0
-}
+};

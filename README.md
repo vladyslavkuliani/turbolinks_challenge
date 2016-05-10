@@ -19,7 +19,7 @@ You should work exclusively in your javascript directory: `app/assets/javascript
 
 #### Challenge 1: Color Changer
 
-When you click on a color page, your background color should change to match the name of the color in your url path. Can you fix the current javascript?
+When you click on a color page, your background color should change to match the name of the color in your url path. Can you fix the current javascript? (Your homepage should _not_ be teal!)
 
 - Does it work on refresh?
 - Does it work when you click through to the page?

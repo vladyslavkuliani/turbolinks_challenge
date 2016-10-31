@@ -21,3 +21,13 @@ var page_view_count = {
   "lightcoral": 0,
   "lightseagreen": 0
 };
+
+$(document).on("turbolinks:load", function(){
+  // set background color
+  var color = window.location.pathname.substring(1) || "home";
+  $("body").css("background-color", color);
+
+  // increment counter
+  page_view_count[color] += 1;
+  $("#" + color + " .view_count.badge").text(page_view_count[color]);
+});

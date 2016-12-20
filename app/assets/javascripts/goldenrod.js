@@ -6,7 +6,7 @@ $(document).on("ready", function(e){
 });
 
 $(document).on("ready", function(){
-  var current_path = "goldenrod";
+  var current_path = location.pathname;
   page_view_count[current_path] += 1;
   $("#goldenrod .view_count.badge").text(page_view_count[current_path]);
 });
